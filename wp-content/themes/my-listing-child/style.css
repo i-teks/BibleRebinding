@@ -1,0 +1,181 @@
+/*
+ Theme Name:   My Listing Child
+ Theme URI:    http://mylisting.27collective.net/my-city/
+ Description:  MyListing Child Theme
+ Author:       27collective
+ Author URI:   https://27collective.net/
+ Template:     my-listing
+ Version:      1.1
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         one-column, two-columns, three-columns, left-sidebar, right-sidebar, grid-layout, custom-menu, custom-logo, featured-images, footer-widgets, full-width-template, sticky-post, theme-options, threaded-comments, translation-ready
+ Text Domain:  my-listing-child
+*/
+
+/*
+Set default font to Poppins
+Override index:56 "theme-styles-default-inline-css"
+*/
+.case27-primary-text { font-family: 'Poppins', sans-serif !important; font-weight: 600 !important; }
+.featured-section .fc-description h1,
+.featured-section .fc-description h2,
+.featured-section .fc-description h3,
+.featured-section .fc-description h4,
+.featured-section .fc-description h5,
+.featured-section .fc-description h6 { font-family: 'Poppins', sans-serif !important; font-weight: 600 !important; }
+.case27-secondary-text { font-family: 'Poppins', sans-serif !important; font-weight: 400 !important; }
+.title-style-1 h5 { font-family: 'Poppins', sans-serif !important; font-weight: 400 !important; }
+.case27-body-text { font-family: 'Poppins', sans-serif !important; font-weight: 400 !important; }
+body, p { font-family: 'Poppins', sans-serif; }
+p { font-weight: 400 !important; }
+.case27-accent-text { font-family: 'Poppins', sans-serif !important; font-weight: 500 !important; }
+
+.c27-main-header:not(.header-scroll) .header-skin, .c27-main-header:not(.header-scroll) .i-nav.mobile-menu-open {
+    background: rgba(0, 0, 0, 0.95) !important;
+}
+
+
+/*
+Elementor widgets and formating
+*/
+/* Elementor Header Title */
+h1, h2, h3, h4, h5, h6 {
+  color: #f5af00; /* custom brand color */
+}
+h1.elementor-heading-title,
+h2.elementor-heading-title,
+h3.elementor-heading-title,
+h4.elementor-heading-title,
+h5.elementor-heading-title,
+h6.elementor-heading-title {
+  color: #ffffff !important;
+  text-shadow: 1px 1px 3px rgb(0,0,0,0.5);
+}
+h2.case27-secondary-text {
+  color: #000000;
+  text-shadow: 1px 1px 3px rgb(255,255,255,0.75);
+}
+
+
+/* Yoast/Elementor Breadcrumb Nav */
+#breadcrumbs {
+  color: #ffffff;
+  font-size: 14px;
+  /* word-spacing: 1.0em; */
+}
+#breadcrumbs a {
+  color: #ffffff;
+}
+#breadcrumbs a:hover {
+  color: #f5af00; /* custom brand color */
+}
+#breadcrumbs .breadcrumb_last {
+  color: #f5af00; /* custom brand color */
+}
+
+/* Elementor Form Groups */
+.elementor-field-label {
+  margin-bottom: 5px;
+  font-weight: 700;
+  font-size: 14px;
+}
+.elementor-button {
+  background-color: #f5af00 !important; /* custom brand color */
+}
+
+/* Elementor Body Text */
+.blogpost-section .section-body .elementor-text-editor p,
+.elementor-text-editor>p,
+.elementor-widget-accordion .elementor-accordion-item .elementor-tab-content p,
+.elementor-widget-tabs .elementor-tabs-content-wrapper .elementor-tab-content p,
+.elementor-widget-theme-post-content p,
+.elementor-widget-toggle .elementor-widget-container .elementor-tab-content p {
+  color: #333333;
+}
+
+blockquote, blockquote * {
+  margin: 0 20px 20px 20px;
+  text-align: left;
+  border: none;
+  font-size: 16px;
+  color: #7a7a7a;
+  font-style: italic;
+}
+
+/*
+Customize header navigation
+Override vendor.css
+*/
+@media only screen and (min-width: 1201px) {
+  .header-top.container-fluid {
+    padding-left: 60px;
+    padding-right: 30px;
+  }
+}
+
+
+.i-nav ul li {
+  font-size: 14px;
+}
+.i-nav li.current-menu-item > a {
+  color: #f5af00; /* custom brand color */
+}
+.i-nav li a:hover {
+  color: #f5af00; /* custom brand color */
+}
+
+
+/*
+Customize the homepage search box
+Override frontend.css
+  Transparent background and tab pointer color
+  Input, select bottom border color
+  Label active and inactive color
+  Button hover style
+*/
+#home-search-form .fs-tabs .tab-content {
+  background: rgba(0,0,0,0.5);
+}
+#home-search-form .transparent .fs-tabs .nav-tabs>li.active>a:after {
+  border-left:8px solid transparent;
+  border-right:8px solid transparent;
+  border-bottom:7px solid rgba(0,0,0,0.5);
+  position:absolute;
+  bottom:1px;
+  content:"";
+  left:50%;
+  -webkit-transform:translateX(-50%);
+  transform:translateX(-50%)
+}
+#home-search-form .featured-search input {
+  color: #ffffff;
+  border-bottom: 1px solid rgba(255,255,255,.25);
+}
+#home-search-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+  border-bottom: 1px solid rgba(255,255,255,.25);
+}
+#home-search-form .md-group label,
+#home-search-form .select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #ffffff;
+}
+#home-search-form .md-active label { /* Override frontend.css.php */
+  color: #f5af00; /* custom brand color */
+}
+#home-search-form .button-2:hover {
+  background-color: #ffffff;
+  color: #565662;
+}
+
+
+.woocommerce-cart .element .pf-body .cart-collaterals {
+  background: #939393;
+}
+.woocommerce form.checkout #order_review table.woocommerce-checkout-review-order-table {
+  background: #939393;
+}
+.woocommerce-checkout .woocommerce {
+  padding-top: 0px;
+}
+.c27-form-coupon-wrapper {
+  margin-top: 0px;
+}

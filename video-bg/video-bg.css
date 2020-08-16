@@ -1,0 +1,34 @@
+/*
+Based on: https://www.youtube.com/watch?v=Xy3GlrddZFI
+Raster BG PNG from http://www.patternify.com/
+*/
+.video-bg-container {
+  width: 100vw;
+  height: 100vh;
+}
+.video-bg-wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+video {
+  width: 100%;
+  height: 100%;
+  min-width: 100%;
+  min-height: auto;
+  object-fit: cover;
+}
+.video-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  /*background-color: rgba(0,0,0,0.3);*/
+  background: url(videos/raster-horizontal@2x.png);
+  background-repeat: repeat;
+  z-index: 1;
+}

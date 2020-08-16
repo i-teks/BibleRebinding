@@ -1,0 +1,80 @@
+2018-11-27T21:05:34+00:00 CRITICAL Uncaught Error: Unsupported operand types in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php:61
+Stack trace:
+#0 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/class-wp-hook.php(288): MyListing\Src\Dashboard_Pages->new_menu_items(0)
+#1 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/plugins/woocommerce/includes/wc-account-functions.php(129): apply_filters('woocommerce_acc...', Array, Array)
+#3 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/sections/header.php(120): wc_get_account_menu_items()
+#4 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/utils/helpers/helpers.php(11 in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php on line 61
+
+2018-11-27T21:05:35+00:00 CRITICAL Uncaught Error: Unsupported operand types in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php:61
+Stack trace:
+#0 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/class-wp-hook.php(288): MyListing\Src\Dashboard_Pages->new_menu_items(0)
+#1 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/plugins/woocommerce/includes/wc-account-functions.php(129): apply_filters('woocommerce_acc...', Array, Array)
+#3 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/sections/header.php(120): wc_get_account_menu_items()
+#4 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/utils/helpers/helpers.php(11 in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php on line 61
+
+2018-11-27T21:05:35+00:00 CRITICAL Uncaught Error: Unsupported operand types in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php:61
+Stack trace:
+#0 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/class-wp-hook.php(288): MyListing\Src\Dashboard_Pages->new_menu_items(0)
+#1 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/plugins/woocommerce/includes/wc-account-functions.php(129): apply_filters('woocommerce_acc...', Array, Array)
+#3 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/sections/header.php(120): wc_get_account_menu_items()
+#4 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/utils/helpers/helpers.php(11 in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php on line 61
+
+2018-11-27T21:05:36+00:00 CRITICAL Uncaught Error: Unsupported operand types in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php:61
+Stack trace:
+#0 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/class-wp-hook.php(288): MyListing\Src\Dashboard_Pages->new_menu_items(0)
+#1 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/plugins/woocommerce/includes/wc-account-functions.php(129): apply_filters('woocommerce_acc...', Array, Array)
+#3 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/sections/header.php(120): wc_get_account_menu_items()
+#4 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/utils/helpers/helpers.php(11 in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php on line 61
+
+2018-11-27T21:05:36+00:00 CRITICAL Uncaught Error: Unsupported operand types in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php:61
+Stack trace:
+#0 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/class-wp-hook.php(288): MyListing\Src\Dashboard_Pages->new_menu_items(0)
+#1 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/plugins/woocommerce/includes/wc-account-functions.php(129): apply_filters('woocommerce_acc...', Array, Array)
+#3 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/sections/header.php(120): wc_get_account_menu_items()
+#4 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/utils/helpers/helpers.php(11 in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php on line 61
+
+2018-11-27T21:05:42+00:00 CRITICAL Uncaught Error: Unsupported operand types in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php:61
+Stack trace:
+#0 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/class-wp-hook.php(288): MyListing\Src\Dashboard_Pages->new_menu_items(0)
+#1 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/plugins/woocommerce/includes/wc-account-functions.php(129): apply_filters('woocommerce_acc...', Array, Array)
+#3 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/sections/header.php(120): wc_get_account_menu_items()
+#4 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/utils/helpers/helpers.php(11 in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php on line 61
+
+2018-11-27T21:05:43+00:00 CRITICAL Uncaught Error: Unsupported operand types in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php:61
+Stack trace:
+#0 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/class-wp-hook.php(288): MyListing\Src\Dashboard_Pages->new_menu_items(0)
+#1 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/plugins/woocommerce/includes/wc-account-functions.php(129): apply_filters('woocommerce_acc...', Array, Array)
+#3 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/sections/header.php(120): wc_get_account_menu_items()
+#4 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/utils/helpers/helpers.php(11 in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php on line 61
+
+2018-11-27T21:05:43+00:00 CRITICAL Uncaught Error: Unsupported operand types in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php:61
+Stack trace:
+#0 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/class-wp-hook.php(288): MyListing\Src\Dashboard_Pages->new_menu_items(0)
+#1 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/plugins/woocommerce/includes/wc-account-functions.php(129): apply_filters('woocommerce_acc...', Array, Array)
+#3 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/sections/header.php(120): wc_get_account_menu_items()
+#4 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/utils/helpers/helpers.php(11 in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php on line 61
+
+2018-11-27T21:05:44+00:00 CRITICAL Uncaught Error: Unsupported operand types in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php:61
+Stack trace:
+#0 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/class-wp-hook.php(288): MyListing\Src\Dashboard_Pages->new_menu_items(0)
+#1 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/plugins/woocommerce/includes/wc-account-functions.php(129): apply_filters('woocommerce_acc...', Array, Array)
+#3 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/sections/header.php(120): wc_get_account_menu_items()
+#4 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/utils/helpers/helpers.php(11 in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php on line 61
+
+2018-11-27T21:05:44+00:00 CRITICAL Uncaught Error: Unsupported operand types in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php:61
+Stack trace:
+#0 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/class-wp-hook.php(288): MyListing\Src\Dashboard_Pages->new_menu_items(0)
+#1 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-includes/plugin.php(203): WP_Hook->apply_filters(NULL, Array)
+#2 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/plugins/woocommerce/includes/wc-account-functions.php(129): apply_filters('woocommerce_acc...', Array, Array)
+#3 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/sections/header.php(120): wc_get_account_menu_items()
+#4 /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/utils/helpers/helpers.php(11 in /Users/jhing/Documents/I-TEKSYSTEMS/Local Web DEV/biblerebinding.com-2018-v2/wp-content/themes/my-listing/includes/classes/dashboard-pages.php on line 61
+
